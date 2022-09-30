@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "git is software for version control / tracking changes and collaboration with teams on any project. Also keeps things safe up in the cloud. Open Source."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "GitHub is where basically every developer on the planet hosts/shares their projects using git."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = "'git init' is a command that initializes a git repo in your local project, so you then have the ability to connect it to your remote gitHub repo"
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,14 +37,14 @@
 */
 
 //CODE HERE
-
+let gitClone = "'git clone' clones an existing remote repo so you can work on it locally."
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
     It should be a string containing your best definition of what 'git status' does.
 */
-
 //CODE HERE
+let gitStatusDefinition = "'git status' gives you the status of each file in the directory you execute this command in so you can see which ones have changes or not."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,7 +56,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "'git add [filename]' adds a specific file to staging, or if you do 'git add .' it adds all the files in that folder you're executing the command in to staging."
 
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +69,8 @@
 */
 
 //CODE HERE
-
+let gitCommitDefinition = "git commit actually commits your staged files."
+let getCommitCode = "git commit -m '[commit message goes here]'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +79,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "'git push' pushes your commits up to your remote repo. voila."
