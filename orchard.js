@@ -26,7 +26,7 @@
     The prices are per pound and are written
     in cents. 
 */
-// monday is first
+// monday is first (fujiAcres[0])
 const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
 const galaAcres = [5, 2, 4, 3, 6, 2, 4]
 const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
